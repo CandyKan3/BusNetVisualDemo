@@ -37,10 +37,17 @@ triggerNotTripState = () => {
   render(){
     return (
       <div>
+      <Navbar bg="dark" variant="dark">
+          <Navbar.Brand href="#home">Bus Net Demo</Navbar.Brand>
+          <Nav className="mr-auto">
+            <Nav.Link href="#home">Created by: Tyler Crowe, Bryce Kane, Bonaventure Raj</Nav.Link>
 
+          </Nav>
+          <Form inline>
+
+          </Form>
+        </Navbar>
       <Container>
-
-
 
   <Row >
    <Col md={{ span: 8 }} >
@@ -48,8 +55,7 @@ triggerNotTripState = () => {
     <Card className = "mt-5" >
     <Card.Body>
     <br></br>
-    <h1>Bus Net Live Demo</h1>
-    <p> Created By: Tyler Crowe, Bryce Kane, Bonaventure Raj </p>
+    <h1>TODO: Insert Demo</h1>
     </Card.Body>
 </Card>
 
